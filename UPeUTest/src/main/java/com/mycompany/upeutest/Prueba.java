@@ -21,7 +21,7 @@ public class Prueba {
     private static final Logger LOGGER =Logger.getLogger(Prueba.class.getName());
     public static void main(String[] args) {
 //        System.out.println("Hola Mundo");
-
+           LOGGER.info("Hpña mundo");
            LOGGER.log(Level.FINE, "Hola mundo");
     }
 }
