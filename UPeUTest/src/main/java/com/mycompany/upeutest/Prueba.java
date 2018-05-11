@@ -5,13 +5,24 @@
  */
 package com.mycompany.upeutest;
 
+import com.sun.xml.internal.ws.spi.db.BindingContextFactory;
+import static com.sun.xml.internal.ws.spi.db.BindingContextFactory.LOGGER;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+
+
 /**
  *
  * @author Alumno
  */
 public class Prueba {
-    public static void main(String[] args) {
-        System.out.println("Hola Mundo");
-    }
     
+    private static final Logger LOGGER =Logger.getLogger(Prueba.class.getName());
+    public static void main(String[] args) {
+//        System.out.println("Hola Mundo");
+
+           LOGGER.log(Level.FINE, "Hola mundo");
+    }
 }
+  
